@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f82564a0eb4e0e47b08a5c0345746af, type: 3}
+  m_Name: HelperConfig
+  m_EditorClassIdentifier: 
+  shadowDistance: 30000
+  buidingsMat: {fileID: 2100000, guid: 61c376bc25c87c44f8a70b98a627bb52, type: 2}
+  terrain0Mat: {fileID: 2100000, guid: 10284aea637795f45982ad79724d582d, type: 2}
+  terrain1Mat: {fileID: 2100000, guid: 9b29a8650144c624ab887ae309a4f3ef, type: 2}
+  terrain2Mat: {fileID: 2100000, guid: 61e82b95ee6023343a11a6eda5aa8741, type: 2}
+  treesMat: {fileID: 2100000, guid: 0d783250236b6e6498d2dc7ff7b31ae1, type: 2}
+  m113Mat: {fileID: 2100000, guid: 630e8cf91fbe2c543b45d2c3b7bdbbf4, type: 2}

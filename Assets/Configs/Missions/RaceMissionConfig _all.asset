@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 846c280117ad49d091ebcc509241264c, type: 3}
+  m_Name: RaceMissionConfig _all
+  m_EditorClassIdentifier: 
+  sceneName: MissionTutorial
+  mainColor: {r: 1, g: 0.5647059, b: 0.95686275, a: 1}
+  successMenu: {fileID: 3802216585870900376, guid: 6715f03797b9dad4e9ed87df92f2125e, type: 3}
+  failMenu: {fileID: 3802216585870900376, guid: 66e1b2d1898dbe040857ca348ade3278, type: 3}
+  missions:
+  - name: "\u0413\u043E\u0440\u043E\u0434 1"
+    sprite: {fileID: 21300000, guid: 87f555537396c0c47955239c1e0e5a41, type: 3}
+    description: "\u041F\u0440\u043E\u043B\u0435\u0442\u0438 \u0442\u0440\u0430\u0441\u0441\u0443
+      \u043F\u043E \u0433\u043E\u0440\u043E\u0434\u0443"
+    category: "\u0413\u043E\u0440\u043E\u0434"
+    droneMission: {fileID: 6208068452780678259, guid: 996bdeabc5236bf49883476c2fd93ac5, type: 3}
+    missionTask: {fileID: 1992734459022570559, guid: 12c4c3c506faa8a4f9359e0423035ef9, type: 3}
+    isHard: 0
+  - name: "\u0413\u043E\u0440\u043E\u0434 2"
+    sprite: {fileID: 21300000, guid: ce52ff54e7ab95447b7defe6c74eeb5f, type: 3}
+    description: "\u041F\u0440\u043E\u043B\u0435\u0442\u0438 \u0442\u0440\u0430\u0441\u0441\u0443
+      \u043F\u043E \u0433\u043E\u0440\u043E\u0434\u0443"
+    category: "\u0413\u043E\u0440\u043E\u0434"
+    droneMission: {fileID: 6208068452780678259, guid: e0d20242222ce6d4ea47bb1800a50ac7, type: 3}
+    missionTask: {fileID: 1992734459022570559, guid: 12c4c3c506faa8a4f9359e0423035ef9, type: 3}
+    isHard: 0
+  - name: "\u0413\u043E\u0440\u043E\u0434 3"
+    sprite: {fileID: 21300000, guid: 4b4468afdd0acac4cba4e9e4e35cda5f, type: 3}
+    description: "\u041F\u0440\u043E\u043B\u0435\u0442\u0438 \u0442\u0440\u0430\u0441\u0441\u0443
+      \u043F\u043E \u0433\u043E\u0440\u043E\u0434\u0443"
+    category: "\u0413\u043E\u0440\u043E\u0434"
+    droneMission: {fileID: 6208068452780678259, guid: 8a359ad63369a2d4da189219d3544f57, type: 3}
+    missionTask: {fileID: 1992734459022570559, guid: 12c4c3c506faa8a4f9359e0423035ef9, type: 3}
+    isHard: 0
+  - name: "\u0417\u0430\u0432\u043E\u0434 1"
+    sprite: {fileID: 21300000, guid: a3660f35ab2d40f439fff6d0d504f4ae, type: 3}
+    description: "\u041F\u0440\u043E\u043B\u0435\u0442\u0438 \u043F\u043E \u0437\u0430\u0432\u043E\u0434\u0443"
+    category: "\u0417\u0430\u0432\u043E\u0434"
+    droneMission: {fileID: 6208068452780678259, guid: fb194a40443d00043bc52cb025c53030, type: 3}
+    missionTask: {fileID: 1992734459022570559, guid: 12c4c3c506faa8a4f9359e0423035ef9, type: 3}
+    isHard: 0
+  - name: "\u0417\u0430\u0432\u043E\u0434 2"
+    sprite: {fileID: 21300000, guid: eb1853827ba5e6e4db1175f4f8987810, type: 3}
+    description: "\u041F\u0440\u043E\u043B\u0435\u0442\u0438 \u043F\u043E \u0437\u0430\u0432\u043E\u0434\u0443"
+    category: "\u0417\u0430\u0432\u043E\u0434"
+    droneMission: {fileID: 6208068452780678259, guid: a5dd38aab735be048b6a1d4f51689918, type: 3}
+    missionTask: {fileID: 1992734459022570559, guid: 12c4c3c506faa8a4f9359e0423035ef9, type: 3}
+    isHard: 0
+  - name: "\u0417\u0430\u0432\u043E\u0434 3"
+    sprite: {fileID: 21300000, guid: 08c90f1ae7d9a9e4cb30a2ff38ab1aea, type: 3}
+    description: "\u041F\u0440\u043E\u043B\u0435\u0442\u0438 \u043F\u043E \u0437\u0430\u0432\u043E\u0434\u0443"
+    category: "\u0417\u0430\u0432\u043E\u0434"
+    droneMission: {fileID: 6208068452780678259, guid: b0dac8a087091c24f8bb03a22d09dc3c, type: 3}
+    missionTask: {fileID: 1992734459022570559, guid: 12c4c3c506faa8a4f9359e0423035ef9, type: 3}
+    isHard: 0
+  - name: "\u041F\u0440\u043E\u043C\u0437\u043E\u043D\u0430 1"
+    sprite: {fileID: 21300000, guid: 17fa5a74ba7bc8a41bbf4a75945964f9, type: 3}
+    description: "\u041F\u0440\u043E\u043B\u0435\u0442\u0438 \u043F\u043E \u043F\u0440\u043E\u043C\u0437\u043E\u043D\u0435"
+    category: "\u041F\u0440\u043E\u043C\u0437\u043E\u043D\u0430"
+    droneMission: {fileID: 6208068452780678259, guid: 08fe580c42aabbf4385685df099e479b, type: 3}
+    missionTask: {fileID: 1992734459022570559, guid: 12c4c3c506faa8a4f9359e0423035ef9, type: 3}
+    isHard: 0
+  - name: "\u041F\u0440\u043E\u043C\u0437\u043E\u043D\u0430 2"
+    sprite: {fileID: 21300000, guid: 6642f4567dc85b3408b463410d3b957f, type: 3}
+    description: "\u041F\u0440\u043E\u043B\u0435\u0442\u0438 \u043F\u043E \u043F\u0440\u043E\u043C\u0437\u043E\u043D\u0435"
+    category: "\u041F\u0440\u043E\u043C\u0437\u043E\u043D\u0430"
+    droneMission: {fileID: 6208068452780678259, guid: 06456255032204b448bdbc6aa7efdb42, type: 3}
+    missionTask: {fileID: 1992734459022570559, guid: 12c4c3c506faa8a4f9359e0423035ef9, type: 3}
+    isHard: 0
+  - name: "\u041F\u0440\u043E\u043C\u0437\u043E\u043D\u0430 3"
+    sprite: {fileID: 21300000, guid: 6026e2419c1b429459ccfc4d76dbcd21, type: 3}
+    description: "\u041F\u0440\u043E\u043B\u0435\u0442\u0438 \u043F\u043E \u043F\u0440\u043E\u043C\u0437\u043E\u043D\u0435"
+    category: "\u041F\u0440\u043E\u043C\u0437\u043E\u043D\u0430"
+    droneMission: {fileID: 6208068452780678259, guid: 91788c36d2c2dfc448aca3c57d67c809, type: 3}
+    missionTask: {fileID: 1992734459022570559, guid: 12c4c3c506faa8a4f9359e0423035ef9, type: 3}
+    isHard: 0
+  - name: "\u0421\u0442\u0430\u0434\u0438\u043E\u043D 1"
+    sprite: {fileID: 21300000, guid: e70c7173004482f48bcedcf4fd65e16f, type: 3}
+    description: "\u041F\u0440\u043E\u043B\u0435\u0442\u0438 \u043F\u043E \u0441\u0442\u0430\u0434\u0438\u043E\u043D\u0443"
+    category: "\u0421\u0442\u0430\u0434\u0438\u043E\u043D"
+    droneMission: {fileID: 6208068452780678259, guid: b03c9a39a03cc8b419c3564141f30af6, type: 3}
+    missionTask: {fileID: 1992734459022570559, guid: 12c4c3c506faa8a4f9359e0423035ef9, type: 3}
+    isHard: 0
+  - name: "\u0421\u0442\u0430\u0434\u0438\u043E\u043D 2"
+    sprite: {fileID: 21300000, guid: 4dbe21d544eb44340a9a36fa20efd369, type: 3}
+    description: "\u041F\u0440\u043E\u043B\u0435\u0442\u0438 \u043F\u043E \u0441\u0442\u0430\u0434\u0438\u043E\u043D\u0443"
+    category: "\u0421\u0442\u0430\u0434\u0438\u043E\u043D"
+    droneMission: {fileID: 6208068452780678259, guid: 884e55b302b1266478baca991955a64f, type: 3}
+    missionTask: {fileID: 1992734459022570559, guid: 12c4c3c506faa8a4f9359e0423035ef9, type: 3}
+    isHard: 0
+  - name: "\u0421\u0442\u0430\u0434\u0438\u043E\u043D 3"
+    sprite: {fileID: 21300000, guid: 66e9384da4bbf624b98163abc8c797c2, type: 3}
+    description: "\u041F\u0440\u043E\u043B\u0435\u0442\u0438 \u043F\u043E \u0441\u0442\u0430\u0434\u0438\u043E\u043D\u0443"
+    category: "\u0421\u0442\u0430\u0434\u0438\u043E\u043D"
+    droneMission: {fileID: 6208068452780678259, guid: 6f5ef8751656bd248b5556b230756b24, type: 3}
+    missionTask: {fileID: 1992734459022570559, guid: 12c4c3c506faa8a4f9359e0423035ef9, type: 3}
+    isHard: 0
